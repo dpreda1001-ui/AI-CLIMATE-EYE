@@ -1,4 +1,4 @@
-# Contributing to The AI EYE Framework
+# Contributing to The AI CLIMATE EYE Framework
 Copyright 2026 Dorin Preda
 
 Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,7 +12,7 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
-Thank you for your interest in contributing to **The AI EYE**. As an open-source framework and a registered candidate for Digital Public Infrastructure, this project relies on a global community of climate scientists, AI safety researchers, and decentralized software engineers.
+Thank you for your interest in contributing to **The AI CLIMATE EYE**. As an open-source framework and a registered candidate for Digital Public Infrastructure, this project relies on a global community of climate scientists, AI safety researchers, and decentralized software engineers.
 
 By contributing to this repository, you help ensure that **Autonomous Earth System Projections** remain transparent, incorruptible, and equitable for all humanity.
 
@@ -36,7 +36,7 @@ When submitting code, please ensure you follow these steps:
 4. **Sign Your Work:** To meet our Apache 2.0 licensing standards, all commits should be cryptographically signed or include a clear Developer Certificate of Origin (DCO) statement confirming you have the right to submit the code.
 
 ## 4. Code of Conduct & Safety Circuit Breakers
-AI EYE operates an independent, autonomous learning loop. Any contribution found to intentionally inject closed proprietary code, backdoor data filters, or malicious logic designed to bypass the open safety circuit breakers will be immediately rejected and permanently flagged by the maintainers.
+AI CLIMATE EYE operates an independent, autonomous learning loop. Any contribution found to intentionally inject closed proprietary code, backdoor data filters, or malicious logic designed to bypass the open safety circuit breakers will be immediately rejected and permanently flagged by the maintainers.
 
 ## 5. Licensing of Contributions
 Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion in the AI EYE framework by you shall be licensed under the terms and conditions of the **Apache License, Version 2.0**, without any additional terms or conditions.
