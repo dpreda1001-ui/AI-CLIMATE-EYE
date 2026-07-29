@@ -13,7 +13,7 @@
 # limitations under the License.
 
 """
-AI EYE Core Engine - Dynamic Sequentialism & Self-Optimization
+AI CLIMATE EYE Core Engine - Dynamic Sequentialism & Self-Optimization
 Manages autonomous code updates anchored strictly to empirical sensor telemetry.
 """
 
