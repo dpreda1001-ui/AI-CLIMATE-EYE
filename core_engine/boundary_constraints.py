@@ -13,7 +13,7 @@
 # limitations under the License.
 
 """
-AI EYE Core Engine - Physics-Informed Boundary Constraints (PINNs)
+AI CLIMATE EYE Core Engine - Physics-Informed Boundary Constraints (PINNs)
 Enforces conservation laws and the mathematical calculation of Systemic Beauty Efficiency.
 """
 
