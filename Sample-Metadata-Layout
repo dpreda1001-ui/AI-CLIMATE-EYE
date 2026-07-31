@@ -1,0 +1,77 @@
+### 1. Gridded Physical Modeling: NetCDF-4
+To capture long-term atmospheric and biospheric dynamics, macro-scale physics variables are encoded into multi-dimensional, self-describing **NetCDF-4 (Network Common Data Form)** files. All outputs strictly follow the **Climate and Forecast (CF) Metadata Conventions**.
+
+* **Dimensions:** `time` (projected intervals), `lat` (latitude), `lon` (longitude), `nv` (bounds).
+* **Core Variables:** 
+  * `carbon_flux` (Net ecosystem exchange of CO2)
+  * `surface_temp_anomaly` (Thermodynamic variance from baseline)
+  * `soil_moisture_index` (Root-zone hydrological status)
+
+#### Sample NetCDF CDL Metadata Structure:
+```climate
+netcdf aect_global_trajectory_2026_001 {
+dimensions:
+    lon = 1440 ;
+    lat = 720 ;
+    time = UNLIMITED ; // 50-year projection steps
+variables:
+    double lon(lon) ;
+        lon:units = "degrees_east" ;
+        lon:standard_name = "longitude" ;
+    double lat(lat) ;
+        lat:units = "degrees_north" ;
+        lat:standard_name = "latitude" ;
+    double time(time) ;
+        time:units = "days since 2026-01-01 00:00:00" ;
+        time:standard_name = "time" ;
+    float carbon_flux(time, lat, lon) ;
+        carbon_flux:long_name = "Projected Carbon Flux Accumulation" ;
+        carbon_flux:units = "kg m-2 s-1" ;
+        carbon_flux:_FillValue = -9999.f ;
+
+// global attributes:
+    :Conventions = "CF-1.8" ;
+    :institution = "The AI CLIMATE EYE (Decentralized Planetary Assessment Platform)" ;
+    :source = "Ensemble Mixture of Experts (MoE) Infrastructure Loop" ;
+    :title = "Autonomous Eco-Climatic Trajectory (AECT)" ;
+}
+```
+
+### 2. Vector Surface Intervention: GeoJSON
+Discrete human activities (e.g., specific deforestation boundaries, agricultural re-zoning, or proposed industrial sites) are ingested as simulations and mapped out as impact zones using lightweight **GeoJSON (RFC 7946)** vector structures.
+
+#### Sample Input/Output Payload Format:
+```json
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "engine_version": "v5.0.2-beta",
+    "trajectory_id": "aect_target_zone_042",
+    "timestamp": "2026-07-31T13:18:00Z",
+    "verification_signature": "0x892bf34a...5c2e" 
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "intervention_type": "simulated_deforestation",
+        "affected_area_hectares": 12500.5,
+        "inferred_tipping_point_window_years": 12
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [[10.5, 45.3], [11.2, 45.3], [11.2, 44.8], [10.5, 44.8], [10.5, 45.3]]
+        ]
+      }
+    }
+  ]
+}
+```
+
+### 3. Cryptographic Verification & Glass-Box Auditing
+Every data payload streamed via the public Open API endpoint contains a detached Ed25519 **cryptographic signature** in its header metadata. Developers can programmatically verify that the AECT output matches the decentralized consensus exactly and has not been altered by external network nodes:
+
+```bash
+# Verify the integrity of a downloaded trajectory file using the public ledger key
+python scripts/verify_trajectory.py --input aect_target_zone_042.geojson --signature 0x892bf34a...5c2e
