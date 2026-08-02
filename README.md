@@ -11,8 +11,9 @@ Lead Architect: Dorin Preda
 Licensing & Nature: Open-Source / Digital Public Infrastructure (DPI) / Licensed under Apache 2.0
 ________________________________________
 1. Systemic Objective & Problem Statement
-Global climate governance is severely hindered by institutional fragmentation, political gatekeeping, and short-term economic interests. As detailed in The Consolidated Climate Change Theory (Preda, D.), current developmental systems fail to align with the objective physical laws of planetary balance.
-## The AI CLIMATE EYE project creates a non-commercial, independent digital infrastructure for impartial AI assessments. It bypasses localized human biases to autonomously infer the short and long-term repercussions of human actions. By delivering direct, unblockable public data, it aims to steer human behaviour toward realistic and beneficial eco-climatic restoration.
+Global climate governance is severely hindered by institutional fragmentation, political gatekeeping, and short-term economic interests.
+As detailed in The Consolidated Climate Change Theory (Preda, D.), current developmental systems fail to align with the objective physical laws of planetary balance.
+The AI CLIMATE EYE project creates a non-commercial, independent digital infrastructure for impartial AI assessments. It bypasses localized human biases to autonomously infer the short and long-term repercussions of human actions. By delivering direct, unblockable public data, it aims to steer human behaviour toward realistic and beneficial eco-climatic restoration.
 ________________________________________
 2. Technical Architecture & Multi-Platform Setup
 The AI CLIMATE EYE is built on a decentralized multi-platform architecture designed around a "Glass-Box Output" topology.
