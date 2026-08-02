@@ -31,7 +31,7 @@ The AI CLIMATE EYE is built on a decentralized multi-platform architecture desig
 ---
 ## 3. Governance Structure
 ### 3.1. Steering Committee
-The project is overseen by a human steering committee composed of:
+Besides the founder, the project is overseen by a human steering committee composed of:
 - Climate scientists (minimum 2).
 - AI safety researchers (minimum 2).
 - Decentralised infrastructure engineers (minimum 1).
