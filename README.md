@@ -27,9 +27,29 @@ The AI CLIMATE EYE is built on a decentralized multi-platform architecture desig
 - Dynamic Earth Envelope Observation: The AI CLIMATE EYE utilizes a completely detached framework designed to isolate objective planetary responses. The platform continuously ingests open-access information on the internet, including telemetry (Copernicus and NASA EarthData) to monitor changes across the Earth envelope, specifically tracking land surface modifications, large vegetation loss, soil degradation, and atmospheric carbon variables.
 - The Predictive Modelling Loop: When a real or simulated human action is introduced to the system (e.g., localized deforestation, wetland conversion, or industrial carbon emission spikes), the decentralized Ensemble Mixture of Experts (MoE) framework begins automated simulation loops. The core engine passes these human interventions through Physics-Informed Neural Networks (PINNs), mapping out the physical modelling equations, including the cascading variables of thermodynamic laws and mass conservation.
 - The Autonomous Eco-Climate Trajectory (AECT) Output: Rather than relying on external conclusions, the system strictly infers mathematically the physical trajectory of the ecosystem. It determines where the system will head, revealing hidden feedback loops and predicting windows where local changes might trigger cross-border ecosystem strain.
-- The Transparent Data Channel (TDC): Once computed, the AECT metrics are signed with unique cryptographic digital signatures to ensure total auditability and prevent centralized gatekeeping or tampering. The complete, raw trajectory metrics are broadcast openly across the Transparent Data Channel (TDC) using universally interoperable file formats (GeoJSON, NetCDF) but also plain language synthesis, creating a pure, unmetered public dataset available for anyone—including researchers, global citizens, and international bodies like the UN — to utilize for risk evaluation as an open global public good.
-________________________________________
-## 3. Digital Public Goods (DPG) Alignment & Technical Specifications<br>
+- The Transparent Data Channel (TDC): Once computed, the AECT metrics are signed with unique cryptographic digital signatures to ensure total auditability and prevent centralized gatekeeping or tampering. The complete, raw trajectory metrics are broadcast openly across the Transparent Data Channel (TDC) using universally interoperable file formats (GeoJSON, NetCDF) but also plain language synthesis, creating a pure, unmetered public dataset available for anyone—including researchers, global citizens, and international bodies like the UN — to utilize for risk evaluation as an open global public good.<br>
+---
+## 3. Governance Structure
+### 3.1. Steering Committee
+The project is overseen by a human steering committee composed of:
+- Climate scientists (minimum 2).
+- AI safety researchers (minimum 2).
+- Decentralised infrastructure engineers (minimum 1).
+- One representative from a UN-affiliated body (observer status).
+
+Members are selected by the founder and initial contributors, with a term limit of 3 years and a rotation policy to prevent entrenchment.
+
+### 3.2. Decision-Making
+
+- Major changes (e.g., new core algorithms, significant data pipeline changes) require a two-thirds majority vote of the steering committee.
+- Minor changes (bug fixes, documentation improvements) are delegated to the open-source community via standard pull-request reviews.
+- Emergency circuit-breaker activation (if the AI attempts to deploy unsafe code) automatically pauses the runtime branch and triggers an immediate full-committee review within 48 hours.
+
+### 3.3. UN Alignment
+
+The AI CLIMATE EYE operates as an advisory entity and commits to following UN General Assembly resolutions related to climate, AI governance, and digital public goods. It will collaborate with UN bodies (e.g., UNFCCC, UNEP, the High-Level Advisory Board on AI) through open dialogue on the Transparent Data Channel.
+______________________________________
+## 4. Digital Public Goods (DPG) Alignment & Technical Specifications<br>
 ### A. Open Data Access & Observational Anchoring<br>
 To maintain objective, incorruptible accuracy and ensure DPGA compliance, the AI CLIMATE EYE framework explicitly utilizes and ingests open-access public data repositories, including:
 - Earth Observation Streams: Real-time satellite imagery and climate telemetry from Copernicus (ESA) and EarthData (NASA).
@@ -46,10 +66,10 @@ The information of the Autonomous Eco-Climate Trajectories (AECT) will also be s
 - Physics-Informed Neural Networks (PINNs): To prevent algorithmic drift or hallucinations during autonomous self-improvement loops, the core model weights are constrained by hardcoded physical boundaries (e.g., the laws of thermodynamics and conservation of mass).
 - Public Circuit Breakers: If the self-generated code deviates outside verifiable physical limits, the system triggers an open-source alert flag, allowing the global developer community to audit and contest the runtime branch.
 ________________________________________
-## 4. How to Contribute<br>
+## 5. How to Contribute<br>
 We welcome contributions from climate scientists, AI safety researchers, and decentralized infrastructure engineers. Please review our CONTRIBUTING.md file for details on our open-development pipeline, code safety standards, and repository guidelines.
 ________________________________________
-## 5. Licensing & Copyright<br> 
+## 6. Licensing & Copyright<br> 
 The AI CLIMATE EYE is dedicated to the global public commons as Digital Public Infrastructure. * **Source Code & Architecture:** Licensed under the [Apache License, Version 2.0](LICENSE). * **Copyright:** © 2026 Dorin Preda. You may freely use, modify, distribute, and sublicense this work under the terms of the Apache 2.0 license, provided all original copyright and attribution notices are preserved. Please review our LICENSE file. <br>
 Logo: The project logo (mini_logo_AI_EYE.jpg) is licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license. © 2026 Dorin Preda.<br>
 
