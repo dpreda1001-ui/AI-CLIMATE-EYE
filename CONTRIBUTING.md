@@ -1,3 +1,4 @@
+![AI EYE Logo](mini_logo_AI_EYE.jpg)
 # Contributing to The AI CLIMATE EYE Framework
 Copyright 2026 Dorin Preda
 
