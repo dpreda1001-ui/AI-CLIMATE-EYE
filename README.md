@@ -8,6 +8,10 @@ Project Name: The AI CLIMATE EYE (Planetary Assessment Platform)
 
 Lead Architect: Dorin Preda
 
+Website: https://climatechangetheory.org
+
+Contact Email: dp@climatechangetheory.org
+
 Licensing & Nature: Open-Source / Digital Public Infrastructure (DPI) / Licensed under Apache 2.0
 ________________________________________
 ## 1. Systemic Objective & Problem Statement<br>
