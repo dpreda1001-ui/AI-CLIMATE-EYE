@@ -26,4 +26,4 @@ CORE PRINCIPLES FOR THE AI CLIMATE EYE
 9.	Informational Efficiency: AI CLIMATE EYE models will aim at maximizing the high-value non-redundant information and minimize consumption of matter and energy.
 10.	PER-Alignment: Human decisions and acts and AI CLIMATE EYE recommendations will be assessed through their modelled Autonomous Eco-Climatic Trajectory (AECT) upon the Ark.
 
-FOUNDER: Dorin Preda
+Founder: Dorin Preda
