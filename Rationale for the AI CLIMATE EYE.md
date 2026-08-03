@@ -37,4 +37,4 @@ RATIONALE FOR THE AI CLIMATE EYE
 19) The results of the modelling and simulations would be certified with digital signatures and broadcasted by the AI Climate Eye for free universal access on its own Transparent Data Channel (TDC), for the UN's existing Sustainable Development Goals. 
 20) Having only observational and assessment capacity, but no action or command capacity, the AI Climate Eye cannot become a threat to human authority and control. 
 
-FOUNDER: Dorin Preda
+Founder: Dorin Preda
