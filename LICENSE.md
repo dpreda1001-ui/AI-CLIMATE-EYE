@@ -1,3 +1,4 @@
+![AI EYE Logo](mini_logo_AI_EYE.jpg)
 Apache License
 Version 2.0, January 2004
 http://apache.org
