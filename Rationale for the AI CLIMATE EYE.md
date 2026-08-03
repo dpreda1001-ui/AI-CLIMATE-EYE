@@ -1,4 +1,5 @@
 ![AI EYE Logo](mini_logo_AI_EYE.jpg)
+
 Copyright 2026 Dorin Preda
 
 Licensed under the Apache License, Version 2.0 (the "License");
