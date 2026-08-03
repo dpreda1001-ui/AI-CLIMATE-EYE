@@ -73,4 +73,4 @@ ________________________________________
 The AI CLIMATE EYE is dedicated to the global public commons as Digital Public Infrastructure. * **Source Code & Architecture:** Licensed under the [Apache License, Version 2.0](LICENSE). * **Copyright:** © 2026 Dorin Preda. You may freely use, modify, distribute, and sublicense this work under the terms of the Apache 2.0 license, provided all original copyright and attribution notices are preserved. Please review our LICENSE file. <br>
 Logo: The project logo (mini_logo_AI_EYE.jpg) is licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license. © 2026 Dorin Preda.<br>
 
-Founder: Dorin Preda, assisted by Google AI
+Founder: Dorin Preda
