@@ -16,7 +16,7 @@ limitations under the License.
 
 RATIONALE FOR THE AI CLIMATE EYE
 
-1) Before humans, almost all Earth land was covered with mainly tall vegetation which cooled the land through its shade, its large water evaporation, and by attracting cloud shade and precipitation. The tall vegetation also generated rich organic soils that are essential for life on land.
+1) Before humans, almost all Earth land was covered with mainly tall vegetation which cooled the land through its shade, its large water evaporation, and by attracting cloud shade and precipitation. The tall vegetation also generated rich organic soils, which are essential for life on land.
 2)   Except minor population groups in the Amazon basin and Central Africa, humans preferred small vegetation for hunting and later agriculture purposes. Therefore, the tall vegetation was cleared out almost entirely in two major steps: one a few thousands of years ago, and the last in the past 150 years, leading to the present climate crisis.
 3) Clearing out tall vegetation allows solar radiation to heat up the ground by removing vegetation shade and evaporation and by decreasing cloud shade, starting an avalanche process of heating and drying that increases the risk of fires. 
 4) Clearing out the coastal vegetation creates hot air curtains which deflect the moist marine air and decrease its penetration inland. As result, coastal vegetation clearance reduces overall inland rainfall and results in desertification. 
