@@ -24,6 +24,7 @@ To align with the Digital Public Goods Alliance (DPGA) standards, all contributi
 * **Bias Mitigation:** We strictly reject any algorithmic modifications that introduce geopolitical, institutional, or commercial biases into the synthesis layer.
 
 ## 2. How to Contribute
+Please see the DEVELOPMENT_GUIDE file.
 You can support the evolution of AI EYE in several ways:
 * **Reporting Bugs:** Open an Issue on GitHub if you detect any algorithmic drift, software anomalies, or data ingestion errors.
 * **Proposing Features:** Suggest improvements to the Ensemble Mixture of Experts (MoE) consensus mechanism or data pipeline integrations by opening an Issue for community discussion.
