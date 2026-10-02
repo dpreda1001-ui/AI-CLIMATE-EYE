@@ -27,7 +27,26 @@ The AI CLIMATE EYE is built on a decentralized multi-platform architecture desig
 ### B. The Synthesis Layer (Ensemble MoE Framework)<br>
 - Consensus Mechanism: The platform utilizes a specialized Mixture of Experts (MoE) model architecture combined with an ensemble consensus mechanism. -
 - Data Integration: Multiple independent machine learning models ingest and analyze global oceanic, atmospheric, bio-spheric, and socio-economic datasets. The architecture filters out human political and corporate noise to isolate the true systemic impact of human actions.<br>
-### C. Glass-Box Outputs (The Transparent Data Channel)<br>
+### C. Technical Architecture & Core Modules
+To translate the physical laws of planetary balance into deterministic software, the **AI CLIMATE EYE** engine is divided into three decentralized, open-source technical layers. We invite developers, remote-sensing data scientists, and physicists to collaborate on these specific modules.
+### 1. Spatial Ingest & Multi-Spectral Vision (`/src/ingest`)
+This module bypasses localized reporting biases by pulling objective, multi-spectral satellite observations directly from public networks (Copernicus/ESA, NASA).
+*   **Target Data Inputs:**
+    *   **Soil Moisture Anomalies** (SMAP / Sentinel-1 data streams)
+    *   **Land Surface Temperature (LST)** via thermal infrared sensors (MODIS / Landsat)
+    *   **Vegetation Indexes** (NDVI / EVI) to monitor regional canopy density.
+*   **AI Implementation:** Computer Vision models (Convolutional Neural Networks and Geospatial Transformers) are trained to map the boundary layers of expanding thermal regional "hot air curtains" relative to stripped, bare land.
+### 2. Thermodynamic & Biotic Pump Physics Engine (`/src/physics_core`)
+Traditional climate models prioritize greenhouse gas concentrations while ignoring localized kinetic and thermodynamic land-cover functions. This module embeds the hard physics of water-cycle regulation directly into the machine learning loss functions (Physics-Informed Neural Networks - PINNs).
+*   **Core Simulations:**
+    *   **Latent Heat Flux Calculations:** Computing the true regional cooling capacity of active canopy evapotranspiration compared to dry sensible heat.
+    *   **The Biotic Pump Mechanism:** Modelling atmospheric pressure drops over dense vegetation zones to simulate how wind patterns dynamically drag moisture from maritime regions to inland basins.
+    *   **Avalanche Greening Scenarios:** Simulating the tipping points where localized agroforestry and orchard planting generate self-sustaining regional rainfall cycles.
+### 3. Predictive Localized Weather Modelling (`/src/simulation_engine`)
+A user-facing predictive interface allowing land practitioners, permaculturists, and regional policy-makers to simulate micro-climatic interventions.
+*   **Functionality:** Users define a specific coordinate geometry and input a planned landscape transformation (e.g., transitioning 1,000 hectares of grazing land into syntropic agroforestry).
+*   **Output:** The generative simulation engine maps a 5-to-10-year predictive projection of changing local relative humidity, soil moisture retention curves, and localized precipitation changes.
+### D. Glass-Box Outputs (The Transparent Data Channel)<br>
 - Dynamic Earth Envelope Observation: The AI CLIMATE EYE utilizes a completely detached framework designed to isolate objective planetary responses. The platform continuously ingests open-access information on the internet, including telemetry (Copernicus and NASA EarthData) to monitor changes across the Earth envelope, specifically tracking land surface modifications, large vegetation loss, soil degradation, and atmospheric carbon variables.
 - The Predictive Modelling Loop: When a real or simulated human action is introduced to the system (e.g., localized deforestation, wetland conversion, or industrial carbon emission spikes), the decentralized Ensemble Mixture of Experts (MoE) framework begins automated simulation loops. The core engine passes these human interventions through Physics-Informed Neural Networks (PINNs), mapping out the physical modelling equations, including the cascading variables of thermodynamic laws and mass conservation.
 - The Autonomous Eco-Climate Trajectory (AECT) Output: Rather than relying on external conclusions, the system strictly infers mathematically the physical trajectory of the ecosystem. It determines where the system will head, revealing hidden feedback loops and predicting windows where local changes might trigger cross-border ecosystem strain.
@@ -71,7 +90,14 @@ The information of the Autonomous Eco-Climate Trajectories (AECT) will also be s
 - Public Circuit Breakers: If the self-generated code deviates outside verifiable physical limits, the system triggers an open-source alert flag, allowing the global developer community to audit and contest the runtime branch.
 ________________________________________
 ## 5. How to Contribute<br>
-We welcome contributions from climate scientists, AI safety researchers, and decentralized infrastructure engineers. Please review our CONTRIBUTING.md file for details on our open-development pipeline, code safety standards, and repository guidelines.
+The AI CLIMATE EYE is a non-commercial framework designed to act as independent Digital Public Infrastructure. We welcome contributions from climate scientists, AI safety researchers, and decentralized infrastructure engineers. We are actively seeking:
+*   **Python / PyTorch Engineers:** To construct the neural network architectures for geospatial data pipelines.
+*   **Hydrologists & Meteorologists:** To review and validate the physics-informed mathematical equations embedded within our models.
+*   **GIS Developers:** To help optimize the rendering of global and regional thermodynamic maps.
+### To contribute code please review our CONTRIBUTING.md file for details on our open-development pipeline, code safety standards, and repository guidelines.
+1. Fork this repository.
+2. Review our technical goals in the open issues section.
+3. Submit a Pull Request targeting the `main` branch following our coding style guidelines.
 ________________________________________
 ## 6. Licensing & Copyright<br> 
 The AI CLIMATE EYE is dedicated to the global public commons as Digital Public Infrastructure. * **Source Code & Architecture:** Licensed under the [Apache License, Version 2.0](LICENSE). * **Copyright:** © 2026 Dorin Preda. You may freely use, modify, distribute, and sublicense this work under the terms of the Apache 2.0 license, provided all original copyright and attribution notices are preserved. Please review our LICENSE file. <br>
