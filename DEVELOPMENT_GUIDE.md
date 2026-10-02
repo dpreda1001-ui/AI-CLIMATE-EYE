@@ -34,22 +34,27 @@ Let me know you are aligned by outlining a clean directory tree matching this th
 For human and AI engineers alike, please organize all submitted pull requests around this unified repository layout:
 
 ```text
-ai-climate-eye/
-├── .github/                 # CI/CD workflows and automated tests
-├── data/                    # Local sample cache (never commit raw geospatial data)
-├── docs/                    # CCCT physical papers, derivations, and formulas
-└── src/                     # Main source code directory
-    ├── __init__.py
-    ├── ingest/              # Satellite data ingestion pipelines
-    │   ├── __init__.py
-    │   ├── copernicus_api.py
-    │   └── nasa_smap.py
-    ├── physics_core/        # Physics-Informed Neural Networks (PINNs)
-    │   ├── __init__.py
-    │   ├── loss_functions.py # Latent Heat & Biotic Pump equations
-    │   └── models.py
-    └── simulation_engine/   # Predictive local weather interface
-        ├── __init__.py
-        ├── app.py           # Streamlit / Web UI entry point
-        └── simulators.py    # Generative environmental forecasting models
+AI_CLIMATE_EYE/
+│
+├── .github/                         # Community & contribution health (CODEOWNERS, issue templates)
+├── docs/                            # Planetary Balance whitepapers & methodology definitions
+│
+├── core_engine/                     # Independent analytical kernel
+│   ├── physical_laws/               # Rigid, code-enforced ecological boundaries & constraints
+│   ├── inference_engine/            # The localized bias-filtering processing modules
+│   └── provenance/                  # Cryptographic ledger signing for unalterable public outputs
+│
+├── data_pipeline/                   # Open-access ingestion engines
+│   ├── ingestion_planetary/         # Live streams for satellite & climate arrays (NASA, ESA)
+│   ├── data_verification/           # Hash-matching to prove ingested raw data wasn't modified
+│   └── regional_activity_logs/      # Human action inputs (industrial metrics, localized emissions data)
+│
+├── public_distribution/             # The "Unblockable" Public Data layer
+│   ├── api_endpoints/               # Public-facing query layers
+│   └── decentralized_feed/          # Infrastructure code to mirror metrics via P2P networks (e.g., IPFS)
+│
+├── tests/                           # Smoke tests verifying physical laws aren't bent by the AI
+└── README.md                        # The systemic objective and problem statement blueprint
+
+
 ```
