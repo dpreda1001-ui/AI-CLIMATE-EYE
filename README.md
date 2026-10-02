@@ -22,7 +22,7 @@ ________________________________________
 ## 2. Technical Architecture & Multi-Platform Setup<br>
 The AI CLIMATE EYE is built on a decentralized multi-platform architecture designed around a "Glass-Box Output" topology.<br>
 ### A. The Engine (Dynamic Sequentialism & Self-Optimization)<br>
-- Mechanism: To allow self-improvement and prevent biased manipulation, the core execution code utilizes an automated, self-improving code generation pipeline. It autonomously migrates and executes across a shifting, decentralized global hardware substrate.
+- Mechanism: To allow self-improvement and prevent biased manipulation, the core execution code utilizes **deterministic WebAssembly (WASM) modules** coordinated via a decentralized consensus layer. It autonomously migrates and executes across a shifting, decentralized global hardware substrate.
 - Logic Framework: It operates on an internal, deterministic language loop focused strictly on systemic ethics, physical boundary conditions, and logical mathematics.<br>
 ### B. The Synthesis Layer (Ensemble MoE Framework)<br>
 - Consensus Mechanism: The platform utilizes a specialized Mixture of Experts (MoE) model architecture combined with an ensemble consensus mechanism. -
