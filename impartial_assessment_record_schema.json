@@ -1,0 +1,111 @@
+# Impartial Assessment Record Schema (IAR)
+# Format: JSON Schema (Draft 2020-12) / JSON-LD Contextualized
+# Purpose: Cryptographically signed, unalterable ecological impact records for AI_CLIMATE_EYE
+
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/dpreda1001-ui/AI_CLIMATE_EYE/schemas/iar-v1.json",
+  "title": "ImpartialAssessmentRecord",
+  "type": "object",
+  "description": "An immutable, verifiable record mapping human environmental activity directly to physics-bounded planetary outcomes.",
+  "required": [
+    "record_metadata",
+    "provenance",
+    "observed_inputs",
+    "thermodynamic_assertions",
+    "impact_inference"
+  ],
+  "properties": {
+    "record_metadata": {
+      "type": "object",
+      "required": ["iar_id", "timestamp", "schema_version", "geo_scope"],
+      "properties": {
+        "iar_id": { "type": "string", "format": "uuid" },
+        "timestamp": { "type": "string", "format": "date-time" },
+        "schema_version": { "type": "string", "const": "1.0.0" },
+        "geo_scope": {
+          "type": "object",
+          "required": ["type", "coordinates"],
+          "properties": {
+            "type": { "type": "string", "enum": ["Polygon", "MultiPolygon", "Global"] },
+            "coordinates": { "type": "array" }
+          }
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "description": "Cryptographic proofs ensuring the raw inputs and running software environment are completely untampered.",
+      "required": [
+        "raw_data_payload_hashes",
+        "runtime_environment_hash",
+        "cryptographic_signature"
+      ],
+      "properties": {
+        "raw_data_payload_hashes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["source_provider", "sha256_hash", "uri"],
+            "properties": {
+              "source_provider": { "type": "string", "examples": ["ESA Copernicus", "NASA GISS"] },
+              "sha256_hash": { "type": "string", "pattern": "^[a-fA-E0-9]{64}$" },
+              "uri": { "type": "string", "format": "uri" }
+            }
+          }
+        },
+        "runtime_environment_hash": {
+          "type": "string",
+          "description": "Deterministic WASM or container state hash proving no manual override parameters were injected into the engine runtime.",
+          "pattern": "^[a-fA-E0-9]{64}$"
+        },
+        "cryptographic_signature": {
+          "type": "object",
+          "required": ["public_key", "signature_value", "algorithm"],
+          "properties": {
+            "public_key": { "type": "string" },
+            "signature_value": { "type": "string" },
+            "algorithm": { "type": "string", "const": "Ed25519" }
+          }
+        }
+      }
+    },
+    "observed_inputs": {
+      "type": "object",
+      "description": "Quantifiable physical metrics stripped of economic proxy terms (e.g., carbon tax credits are excluded; raw PPM values are used).",
+      "required": ["atmospheric_co2_ppm", "sea_surface_temp_anomaly_c", "regional_emissions_mt"],
+      "properties": {
+        "atmospheric_co2_ppm": { "type": "number", "minimum": 0 },
+        "sea_surface_temp_anomaly_c": { "type": "number" },
+        "regional_emissions_mt": { "type": "number", "minimum": 0 }
+      }
+    },
+    "thermodynamic_assertions": {
+      "type": "object",
+      "description": "Code-enforced validation checks passed by Physics-Informed Neural Networks (PINNs) before output generation.",
+      "required": ["energy_balance_conserved", "mass_continuity_passed", "residual_error_tolerance"],
+      "properties": {
+        "energy_balance_conserved": { "type": "boolean", "const": true },
+        "mass_continuity_passed": { "type": "boolean", "const": true },
+        "residual_error_tolerance": { "type": "number", "maximum": 1e-6 }
+      }
+    },
+    "impact_inference": {
+      "type": "object",
+      "description": "The AI-synthesised, factual assessment of cause-and-effect trajectories based entirely on physical variables.",
+      "required": ["inferred_trajectory", "confidence_interval", "attribution_factor"],
+      "properties": {
+        "inferred_trajectory": { "type": "string", "description": "Factual statement regarding physical trend shifts." },
+        "confidence_interval": { "type": "number", "minimum": 0, "maximum": 1 },
+        "attribution_factor": {
+          "type": "object",
+          "description": "Mathematical attribution of human industrial activity vs baseline cycles.",
+          "required": ["anthropogenic_percentage"],
+          "properties": {
+            "anthropogenic_percentage": { "type": "number", "minimum": 0, "maximum": 100 }
+          }
+        }
+      }
+    }
+  }
+}
