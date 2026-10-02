@@ -94,7 +94,7 @@ The AI CLIMATE EYE is a non-commercial framework designed to act as independent 
 *   **Python / PyTorch Engineers:** To construct the neural network architectures for geospatial data pipelines.
 *   **Hydrologists & Meteorologists:** To review and validate the physics-informed mathematical equations embedded within our models.
 *   **GIS Developers:** To help optimize the rendering of global and regional thermodynamic maps.
-### To contribute code please review our CONTRIBUTING.md file for details on our open-development pipeline, code safety standards, and repository guidelines.
+### To contribute code please review our CONTRIBUTING.md and DEVELOPMENT_GUIDE.md files for details on our open-development pipeline, code safety standards, and repository guidelines.
 1. Fork this repository.
 2. Review our technical goals in the open issues section.
 3. Submit a Pull Request targeting the `main` branch following our coding style guidelines.
